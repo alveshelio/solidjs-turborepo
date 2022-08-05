@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-solidjs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-solid": "^0.7.1",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint-import-resolver-typescript": "^3.4.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "typescript": "^4.7.4",
+    "tsconfig": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
